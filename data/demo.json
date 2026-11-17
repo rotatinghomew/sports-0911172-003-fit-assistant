@@ -1,0 +1,74 @@
+[
+  [
+    "catalog.stock",
+    {
+      "id": "m",
+      "brand": "ridge",
+      "style": "trail",
+      "size": "M",
+      "count": 3,
+      "price": 30000
+    }
+  ],
+  [
+    "catalog.stock",
+    {
+      "id": "l",
+      "brand": "ridge",
+      "style": "trail",
+      "size": "L",
+      "count": 2,
+      "price": 30000
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f1",
+      "person": "p1",
+      "measured_at": "2026-10-01",
+      "height": 173,
+      "foot": 26,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o1",
+      "person": "p1",
+      "sku": "m",
+      "happened_at": "2026-10-02"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o2",
+      "person": "p1",
+      "sku": "l",
+      "happened_at": "2026-10-04"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a1",
+      "order": "o1",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-10-04",
+      "replacement": "o2"
+    }
+  ],
+  [
+    "aftercare.correct",
+    {
+      "id": "a1",
+      "reason": "fabric",
+      "observed_at": "2026-10-10"
+    }
+  ]
+]

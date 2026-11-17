@@ -1,0 +1,7972 @@
+[
+  [
+    "catalog.stock",
+    {
+      "id": "ridge-M",
+      "brand": "ridge",
+      "style": "ridge-trail",
+      "size": "M",
+      "count": 600,
+      "price": 30000
+    }
+  ],
+  [
+    "catalog.stock",
+    {
+      "id": "ridge-L",
+      "brand": "ridge",
+      "style": "ridge-trail",
+      "size": "L",
+      "count": 600,
+      "price": 30000
+    }
+  ],
+  [
+    "catalog.stock",
+    {
+      "id": "ridge-XL",
+      "brand": "ridge",
+      "style": "ridge-trail",
+      "size": "XL",
+      "count": 600,
+      "price": 30000
+    }
+  ],
+  [
+    "catalog.stock",
+    {
+      "id": "lake-M",
+      "brand": "lake",
+      "style": "lake-trail",
+      "size": "M",
+      "count": 600,
+      "price": 30000
+    }
+  ],
+  [
+    "catalog.stock",
+    {
+      "id": "lake-L",
+      "brand": "lake",
+      "style": "lake-trail",
+      "size": "L",
+      "count": 600,
+      "price": 30000
+    }
+  ],
+  [
+    "catalog.stock",
+    {
+      "id": "lake-XL",
+      "brand": "lake",
+      "style": "lake-trail",
+      "size": "XL",
+      "count": 600,
+      "price": 30000
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f0",
+      "person": "p0",
+      "measured_at": "2026-07-01",
+      "height": 155,
+      "foot": 22.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o0",
+      "person": "p0",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-01"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x0",
+      "person": "p0",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-04"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a0",
+      "order": "o0",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-04",
+      "replacement": "x0"
+    }
+  ],
+  [
+    "aftercare.correct",
+    {
+      "id": "a0",
+      "reason": "fabric",
+      "observed_at": "2026-07-10"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f1",
+      "person": "p1",
+      "measured_at": "2026-07-02",
+      "height": 156,
+      "foot": 22.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o1",
+      "person": "p1",
+      "sku": "lake-L",
+      "happened_at": "2026-07-02"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f2",
+      "person": "p2",
+      "measured_at": "2026-07-03",
+      "height": 157,
+      "foot": 23.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o2",
+      "person": "p2",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-03"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f3",
+      "person": "p3",
+      "measured_at": "2026-07-04",
+      "height": 158,
+      "foot": 23.5,
+      "brand": "lake",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o3",
+      "person": "p3",
+      "sku": "lake-M",
+      "happened_at": "2026-07-04"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a3",
+      "order": "o3",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-11"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f4",
+      "person": "p4",
+      "measured_at": "2026-07-05",
+      "height": 159,
+      "foot": 24.0,
+      "brand": "ridge",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o4",
+      "person": "p4",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-05"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a4",
+      "order": "o4",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-07-10"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f5",
+      "person": "p5",
+      "measured_at": "2026-07-06",
+      "height": 160,
+      "foot": 24.5,
+      "brand": "lake",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o5",
+      "person": "p5",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-06"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x5",
+      "person": "p5",
+      "sku": "lake-M",
+      "happened_at": "2026-07-09"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a5",
+      "order": "o5",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-09",
+      "replacement": "x5"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f6",
+      "person": "p6",
+      "measured_at": "2026-07-07",
+      "height": 161,
+      "foot": 25.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o6",
+      "person": "p6",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-07"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a6",
+      "order": "o6",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-14"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f7",
+      "person": "p7",
+      "measured_at": "2026-07-08",
+      "height": 162,
+      "foot": 25.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o7",
+      "person": "p7",
+      "sku": "lake-L",
+      "happened_at": "2026-07-08"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f8",
+      "person": "p8",
+      "measured_at": "2026-07-09",
+      "height": 163,
+      "foot": 26.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o8",
+      "person": "p8",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-09"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a8",
+      "order": "o8",
+      "outcome": "return",
+      "reason": "fabric",
+      "observed_at": "2026-07-14"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f9",
+      "person": "p9",
+      "measured_at": "2026-07-10",
+      "height": 164,
+      "foot": 22.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o9",
+      "person": "p9",
+      "sku": "lake-M",
+      "happened_at": "2026-07-10"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a9",
+      "order": "o9",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-17"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f10",
+      "person": "p10",
+      "measured_at": "2026-07-11",
+      "height": 165,
+      "foot": 22.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o10",
+      "person": "p10",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-11"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x10",
+      "person": "p10",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-14"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a10",
+      "order": "o10",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-14",
+      "replacement": "x10"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f11",
+      "person": "p11",
+      "measured_at": "2026-07-12",
+      "height": 166,
+      "foot": 23.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o11",
+      "person": "p11",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-12"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f12",
+      "person": "p12",
+      "measured_at": "2026-07-13",
+      "height": 167,
+      "foot": 23.5,
+      "brand": "ridge",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o12",
+      "person": "p12",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-13"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a12",
+      "order": "o12",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-07-18"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f13",
+      "person": "p13",
+      "measured_at": "2026-07-14",
+      "height": 168,
+      "foot": 24.0,
+      "brand": "lake",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o13",
+      "person": "p13",
+      "sku": "lake-L",
+      "happened_at": "2026-07-14"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f14",
+      "person": "p14",
+      "measured_at": "2026-07-15",
+      "height": 169,
+      "foot": 24.5,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o14",
+      "person": "p14",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-15"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f15",
+      "person": "p15",
+      "measured_at": "2026-07-16",
+      "height": 170,
+      "foot": 25.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o15",
+      "person": "p15",
+      "sku": "lake-M",
+      "happened_at": "2026-07-16"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x15",
+      "person": "p15",
+      "sku": "lake-L",
+      "happened_at": "2026-07-19"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a15",
+      "order": "o15",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-19",
+      "replacement": "x15"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f16",
+      "person": "p16",
+      "measured_at": "2026-07-17",
+      "height": 171,
+      "foot": 25.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o16",
+      "person": "p16",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-17"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a16",
+      "order": "o16",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-07-22"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f17",
+      "person": "p17",
+      "measured_at": "2026-07-18",
+      "height": 172,
+      "foot": 26.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o17",
+      "person": "p17",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-18"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f18",
+      "person": "p18",
+      "measured_at": "2026-07-19",
+      "height": 173,
+      "foot": 22.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o18",
+      "person": "p18",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-19"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a18",
+      "order": "o18",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-26"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f19",
+      "person": "p19",
+      "measured_at": "2026-07-20",
+      "height": 174,
+      "foot": 22.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o19",
+      "person": "p19",
+      "sku": "lake-L",
+      "happened_at": "2026-07-20"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f20",
+      "person": "p20",
+      "measured_at": "2026-07-21",
+      "height": 175,
+      "foot": 23.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o20",
+      "person": "p20",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-21"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x20",
+      "person": "p20",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-24"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a20",
+      "order": "o20",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-24",
+      "replacement": "x20"
+    }
+  ],
+  [
+    "aftercare.correct",
+    {
+      "id": "a20",
+      "reason": "fabric",
+      "observed_at": "2026-07-30"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f21",
+      "person": "p21",
+      "measured_at": "2026-07-22",
+      "height": 176,
+      "foot": 23.5,
+      "brand": "lake",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o21",
+      "person": "p21",
+      "sku": "lake-M",
+      "happened_at": "2026-07-22"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a21",
+      "order": "o21",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-29"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f22",
+      "person": "p22",
+      "measured_at": "2026-07-23",
+      "height": 177,
+      "foot": 24.0,
+      "brand": "ridge",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o22",
+      "person": "p22",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-23"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f23",
+      "person": "p23",
+      "measured_at": "2026-07-24",
+      "height": 178,
+      "foot": 24.5,
+      "brand": "lake",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o23",
+      "person": "p23",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-24"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f24",
+      "person": "p24",
+      "measured_at": "2026-07-25",
+      "height": 179,
+      "foot": 25.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o24",
+      "person": "p24",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-25"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a24",
+      "order": "o24",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-07-30"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f25",
+      "person": "p25",
+      "measured_at": "2026-07-26",
+      "height": 180,
+      "foot": 25.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o25",
+      "person": "p25",
+      "sku": "lake-L",
+      "happened_at": "2026-07-26"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x25",
+      "person": "p25",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-29"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a25",
+      "order": "o25",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-29",
+      "replacement": "x25"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f26",
+      "person": "p26",
+      "measured_at": "2026-07-27",
+      "height": 181,
+      "foot": 26.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o26",
+      "person": "p26",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-27"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f27",
+      "person": "p27",
+      "measured_at": "2026-07-28",
+      "height": 182,
+      "foot": 22.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o27",
+      "person": "p27",
+      "sku": "lake-M",
+      "happened_at": "2026-07-28"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a27",
+      "order": "o27",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-04"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f28",
+      "person": "p28",
+      "measured_at": "2026-07-29",
+      "height": 183,
+      "foot": 22.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o28",
+      "person": "p28",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-29"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a28",
+      "order": "o28",
+      "outcome": "return",
+      "reason": "changed_mind",
+      "observed_at": "2026-08-03"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f29",
+      "person": "p29",
+      "measured_at": "2026-07-30",
+      "height": 184,
+      "foot": 23.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o29",
+      "person": "p29",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-30"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f30",
+      "person": "p30",
+      "measured_at": "2026-07-31",
+      "height": 185,
+      "foot": 23.5,
+      "brand": "ridge",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o30",
+      "person": "p30",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-31"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x30",
+      "person": "p30",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-03"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a30",
+      "order": "o30",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-03",
+      "replacement": "x30"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f31",
+      "person": "p31",
+      "measured_at": "2026-08-01",
+      "height": 186,
+      "foot": 24.0,
+      "brand": "lake",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o31",
+      "person": "p31",
+      "sku": "lake-L",
+      "happened_at": "2026-08-01"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f32",
+      "person": "p32",
+      "measured_at": "2026-08-02",
+      "height": 187,
+      "foot": 24.5,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o32",
+      "person": "p32",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-02"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a32",
+      "order": "o32",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-08-07"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f33",
+      "person": "p33",
+      "measured_at": "2026-08-03",
+      "height": 188,
+      "foot": 25.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o33",
+      "person": "p33",
+      "sku": "lake-M",
+      "happened_at": "2026-08-03"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a33",
+      "order": "o33",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-10"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f34",
+      "person": "p34",
+      "measured_at": "2026-08-04",
+      "height": 189,
+      "foot": 25.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o34",
+      "person": "p34",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-04"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f35",
+      "person": "p35",
+      "measured_at": "2026-08-05",
+      "height": 190,
+      "foot": 26.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o35",
+      "person": "p35",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-05"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x35",
+      "person": "p35",
+      "sku": "lake-M",
+      "happened_at": "2026-08-08"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a35",
+      "order": "o35",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-08",
+      "replacement": "x35"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f36",
+      "person": "p36",
+      "measured_at": "2026-08-06",
+      "height": 191,
+      "foot": 22.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o36",
+      "person": "p36",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-06"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a36",
+      "order": "o36",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-08-11"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f37",
+      "person": "p37",
+      "measured_at": "2026-08-07",
+      "height": 192,
+      "foot": 22.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o37",
+      "person": "p37",
+      "sku": "lake-L",
+      "happened_at": "2026-08-07"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f38",
+      "person": "p38",
+      "measured_at": "2026-08-08",
+      "height": 193,
+      "foot": 23.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o38",
+      "person": "p38",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-08"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f39",
+      "person": "p39",
+      "measured_at": "2026-08-09",
+      "height": 194,
+      "foot": 23.5,
+      "brand": "lake",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o39",
+      "person": "p39",
+      "sku": "lake-M",
+      "happened_at": "2026-08-09"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a39",
+      "order": "o39",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-16"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f40",
+      "person": "p40",
+      "measured_at": "2026-08-10",
+      "height": 155,
+      "foot": 24.0,
+      "brand": "ridge",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o40",
+      "person": "p40",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-10"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x40",
+      "person": "p40",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-13"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a40",
+      "order": "o40",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-13",
+      "replacement": "x40"
+    }
+  ],
+  [
+    "aftercare.correct",
+    {
+      "id": "a40",
+      "reason": "fabric",
+      "observed_at": "2026-08-19"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f41",
+      "person": "p41",
+      "measured_at": "2026-08-11",
+      "height": 156,
+      "foot": 24.5,
+      "brand": "lake",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o41",
+      "person": "p41",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-11"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f42",
+      "person": "p42",
+      "measured_at": "2026-08-12",
+      "height": 157,
+      "foot": 25.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o42",
+      "person": "p42",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-12"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a42",
+      "order": "o42",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-19"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f43",
+      "person": "p43",
+      "measured_at": "2026-08-13",
+      "height": 158,
+      "foot": 25.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o43",
+      "person": "p43",
+      "sku": "lake-L",
+      "happened_at": "2026-08-13"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f44",
+      "person": "p44",
+      "measured_at": "2026-08-14",
+      "height": 159,
+      "foot": 26.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o44",
+      "person": "p44",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-14"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a44",
+      "order": "o44",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-08-19"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f45",
+      "person": "p45",
+      "measured_at": "2026-08-15",
+      "height": 160,
+      "foot": 22.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o45",
+      "person": "p45",
+      "sku": "lake-M",
+      "happened_at": "2026-08-15"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x45",
+      "person": "p45",
+      "sku": "lake-L",
+      "happened_at": "2026-08-18"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a45",
+      "order": "o45",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-18",
+      "replacement": "x45"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f46",
+      "person": "p46",
+      "measured_at": "2026-08-16",
+      "height": 161,
+      "foot": 22.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o46",
+      "person": "p46",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-16"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f47",
+      "person": "p47",
+      "measured_at": "2026-08-17",
+      "height": 162,
+      "foot": 23.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o47",
+      "person": "p47",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-17"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f48",
+      "person": "p48",
+      "measured_at": "2026-08-18",
+      "height": 163,
+      "foot": 23.5,
+      "brand": "ridge",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o48",
+      "person": "p48",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-18"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a48",
+      "order": "o48",
+      "outcome": "return",
+      "reason": "fabric",
+      "observed_at": "2026-08-23"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f49",
+      "person": "p49",
+      "measured_at": "2026-08-19",
+      "height": 164,
+      "foot": 24.0,
+      "brand": "lake",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o49",
+      "person": "p49",
+      "sku": "lake-L",
+      "happened_at": "2026-08-19"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f50",
+      "person": "p50",
+      "measured_at": "2026-08-20",
+      "height": 165,
+      "foot": 24.5,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o50",
+      "person": "p50",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-20"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x50",
+      "person": "p50",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-23"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a50",
+      "order": "o50",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-23",
+      "replacement": "x50"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f51",
+      "person": "p51",
+      "measured_at": "2026-08-21",
+      "height": 166,
+      "foot": 25.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o51",
+      "person": "p51",
+      "sku": "lake-M",
+      "happened_at": "2026-08-21"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a51",
+      "order": "o51",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-28"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f52",
+      "person": "p52",
+      "measured_at": "2026-08-22",
+      "height": 167,
+      "foot": 25.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o52",
+      "person": "p52",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-22"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a52",
+      "order": "o52",
+      "outcome": "return",
+      "reason": "fabric",
+      "observed_at": "2026-08-27"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f53",
+      "person": "p53",
+      "measured_at": "2026-08-23",
+      "height": 168,
+      "foot": 26.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o53",
+      "person": "p53",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-23"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f54",
+      "person": "p54",
+      "measured_at": "2026-08-24",
+      "height": 169,
+      "foot": 22.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o54",
+      "person": "p54",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-24"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a54",
+      "order": "o54",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-31"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f55",
+      "person": "p55",
+      "measured_at": "2026-08-25",
+      "height": 170,
+      "foot": 22.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o55",
+      "person": "p55",
+      "sku": "lake-L",
+      "happened_at": "2026-08-25"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x55",
+      "person": "p55",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-28"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a55",
+      "order": "o55",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-28",
+      "replacement": "x55"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f56",
+      "person": "p56",
+      "measured_at": "2026-08-26",
+      "height": 171,
+      "foot": 23.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o56",
+      "person": "p56",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-26"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a56",
+      "order": "o56",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-08-31"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f57",
+      "person": "p57",
+      "measured_at": "2026-08-27",
+      "height": 172,
+      "foot": 23.5,
+      "brand": "lake",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o57",
+      "person": "p57",
+      "sku": "lake-M",
+      "happened_at": "2026-08-27"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a57",
+      "order": "o57",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-09-03"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f58",
+      "person": "p58",
+      "measured_at": "2026-08-28",
+      "height": 173,
+      "foot": 24.0,
+      "brand": "ridge",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o58",
+      "person": "p58",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-28"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f59",
+      "person": "p59",
+      "measured_at": "2026-08-29",
+      "height": 174,
+      "foot": 24.5,
+      "brand": "lake",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o59",
+      "person": "p59",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-29"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f60",
+      "person": "p60",
+      "measured_at": "2026-08-30",
+      "height": 175,
+      "foot": 25.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o60",
+      "person": "p60",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-30"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x60",
+      "person": "p60",
+      "sku": "ridge-L",
+      "happened_at": "2026-09-02"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a60",
+      "order": "o60",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-09-02",
+      "replacement": "x60"
+    }
+  ],
+  [
+    "aftercare.correct",
+    {
+      "id": "a60",
+      "reason": "fabric",
+      "observed_at": "2026-09-08"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f61",
+      "person": "p61",
+      "measured_at": "2026-08-31",
+      "height": 176,
+      "foot": 25.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o61",
+      "person": "p61",
+      "sku": "lake-L",
+      "happened_at": "2026-08-31"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f62",
+      "person": "p62",
+      "measured_at": "2026-09-01",
+      "height": 177,
+      "foot": 26.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o62",
+      "person": "p62",
+      "sku": "ridge-XL",
+      "happened_at": "2026-09-01"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f63",
+      "person": "p63",
+      "measured_at": "2026-09-02",
+      "height": 178,
+      "foot": 22.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o63",
+      "person": "p63",
+      "sku": "lake-M",
+      "happened_at": "2026-09-02"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a63",
+      "order": "o63",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-09-09"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f64",
+      "person": "p64",
+      "measured_at": "2026-09-03",
+      "height": 179,
+      "foot": 22.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o64",
+      "person": "p64",
+      "sku": "ridge-L",
+      "happened_at": "2026-09-03"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a64",
+      "order": "o64",
+      "outcome": "return",
+      "reason": "fabric",
+      "observed_at": "2026-09-08"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f65",
+      "person": "p65",
+      "measured_at": "2026-09-04",
+      "height": 180,
+      "foot": 23.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o65",
+      "person": "p65",
+      "sku": "lake-XL",
+      "happened_at": "2026-09-04"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x65",
+      "person": "p65",
+      "sku": "lake-M",
+      "happened_at": "2026-09-07"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a65",
+      "order": "o65",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-09-07",
+      "replacement": "x65"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f66",
+      "person": "p66",
+      "measured_at": "2026-09-05",
+      "height": 181,
+      "foot": 23.5,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o66",
+      "person": "p66",
+      "sku": "ridge-M",
+      "happened_at": "2026-09-05"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a66",
+      "order": "o66",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-09-12"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f67",
+      "person": "p67",
+      "measured_at": "2026-09-06",
+      "height": 182,
+      "foot": 24.0,
+      "brand": "lake",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o67",
+      "person": "p67",
+      "sku": "lake-L",
+      "happened_at": "2026-09-06"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f68",
+      "person": "p68",
+      "measured_at": "2026-09-07",
+      "height": 183,
+      "foot": 24.5,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o68",
+      "person": "p68",
+      "sku": "ridge-XL",
+      "happened_at": "2026-09-07"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a68",
+      "order": "o68",
+      "outcome": "return",
+      "reason": "changed_mind",
+      "observed_at": "2026-09-12"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f69",
+      "person": "p69",
+      "measured_at": "2026-09-08",
+      "height": 184,
+      "foot": 25.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o69",
+      "person": "p69",
+      "sku": "lake-M",
+      "happened_at": "2026-09-08"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a69",
+      "order": "o69",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-09-15"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f70",
+      "person": "p70",
+      "measured_at": "2026-09-09",
+      "height": 185,
+      "foot": 25.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o70",
+      "person": "p70",
+      "sku": "ridge-L",
+      "happened_at": "2026-09-09"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x70",
+      "person": "p70",
+      "sku": "ridge-XL",
+      "happened_at": "2026-09-12"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a70",
+      "order": "o70",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-09-12",
+      "replacement": "x70"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f71",
+      "person": "p71",
+      "measured_at": "2026-09-10",
+      "height": 186,
+      "foot": 26.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o71",
+      "person": "p71",
+      "sku": "lake-XL",
+      "happened_at": "2026-09-10"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f72",
+      "person": "p72",
+      "measured_at": "2026-09-11",
+      "height": 187,
+      "foot": 22.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o72",
+      "person": "p72",
+      "sku": "ridge-M",
+      "happened_at": "2026-09-11"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a72",
+      "order": "o72",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-09-16"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f73",
+      "person": "p73",
+      "measured_at": "2026-09-12",
+      "height": 188,
+      "foot": 22.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o73",
+      "person": "p73",
+      "sku": "lake-L",
+      "happened_at": "2026-09-12"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f74",
+      "person": "p74",
+      "measured_at": "2026-09-13",
+      "height": 189,
+      "foot": 23.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o74",
+      "person": "p74",
+      "sku": "ridge-XL",
+      "happened_at": "2026-09-13"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f75",
+      "person": "p75",
+      "measured_at": "2026-09-14",
+      "height": 190,
+      "foot": 23.5,
+      "brand": "lake",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o75",
+      "person": "p75",
+      "sku": "lake-M",
+      "happened_at": "2026-09-14"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x75",
+      "person": "p75",
+      "sku": "lake-L",
+      "happened_at": "2026-09-17"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a75",
+      "order": "o75",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-09-17",
+      "replacement": "x75"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f76",
+      "person": "p76",
+      "measured_at": "2026-09-15",
+      "height": 191,
+      "foot": 24.0,
+      "brand": "ridge",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o76",
+      "person": "p76",
+      "sku": "ridge-L",
+      "happened_at": "2026-09-15"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a76",
+      "order": "o76",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-09-20"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f77",
+      "person": "p77",
+      "measured_at": "2026-09-16",
+      "height": 192,
+      "foot": 24.5,
+      "brand": "lake",
+      "size": "XL",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o77",
+      "person": "p77",
+      "sku": "lake-XL",
+      "happened_at": "2026-09-16"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f78",
+      "person": "p78",
+      "measured_at": "2026-09-17",
+      "height": 193,
+      "foot": 25.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o78",
+      "person": "p78",
+      "sku": "ridge-M",
+      "happened_at": "2026-09-17"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a78",
+      "order": "o78",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-09-24"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f79",
+      "person": "p79",
+      "measured_at": "2026-09-18",
+      "height": 194,
+      "foot": 25.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o79",
+      "person": "p79",
+      "sku": "lake-L",
+      "happened_at": "2026-09-18"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f80",
+      "person": "p80",
+      "measured_at": "2026-07-01",
+      "height": 155,
+      "foot": 26.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o80",
+      "person": "p80",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-01"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x80",
+      "person": "p80",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-04"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a80",
+      "order": "o80",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-04",
+      "replacement": "x80"
+    }
+  ],
+  [
+    "aftercare.correct",
+    {
+      "id": "a80",
+      "reason": "fabric",
+      "observed_at": "2026-07-10"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f81",
+      "person": "p81",
+      "measured_at": "2026-07-02",
+      "height": 156,
+      "foot": 22.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o81",
+      "person": "p81",
+      "sku": "lake-M",
+      "happened_at": "2026-07-02"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a81",
+      "order": "o81",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-09"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f82",
+      "person": "p82",
+      "measured_at": "2026-07-03",
+      "height": 157,
+      "foot": 22.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o82",
+      "person": "p82",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-03"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f83",
+      "person": "p83",
+      "measured_at": "2026-07-04",
+      "height": 158,
+      "foot": 23.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o83",
+      "person": "p83",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-04"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f84",
+      "person": "p84",
+      "measured_at": "2026-07-05",
+      "height": 159,
+      "foot": 23.5,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o84",
+      "person": "p84",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-05"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a84",
+      "order": "o84",
+      "outcome": "return",
+      "reason": "changed_mind",
+      "observed_at": "2026-07-10"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f85",
+      "person": "p85",
+      "measured_at": "2026-07-06",
+      "height": 160,
+      "foot": 24.0,
+      "brand": "lake",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o85",
+      "person": "p85",
+      "sku": "lake-L",
+      "happened_at": "2026-07-06"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x85",
+      "person": "p85",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-09"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a85",
+      "order": "o85",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-09",
+      "replacement": "x85"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f86",
+      "person": "p86",
+      "measured_at": "2026-07-07",
+      "height": 161,
+      "foot": 24.5,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o86",
+      "person": "p86",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-07"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f87",
+      "person": "p87",
+      "measured_at": "2026-07-08",
+      "height": 162,
+      "foot": 25.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o87",
+      "person": "p87",
+      "sku": "lake-M",
+      "happened_at": "2026-07-08"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a87",
+      "order": "o87",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-15"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f88",
+      "person": "p88",
+      "measured_at": "2026-07-09",
+      "height": 163,
+      "foot": 25.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o88",
+      "person": "p88",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-09"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a88",
+      "order": "o88",
+      "outcome": "return",
+      "reason": "changed_mind",
+      "observed_at": "2026-07-14"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f89",
+      "person": "p89",
+      "measured_at": "2026-07-10",
+      "height": 164,
+      "foot": 26.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o89",
+      "person": "p89",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-10"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f90",
+      "person": "p0",
+      "measured_at": "2026-07-11",
+      "height": 165,
+      "foot": 22.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o90",
+      "person": "p0",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-11"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x90",
+      "person": "p0",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-14"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a90",
+      "order": "o90",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-14",
+      "replacement": "x90"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f91",
+      "person": "p1",
+      "measured_at": "2026-07-12",
+      "height": 166,
+      "foot": 22.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o91",
+      "person": "p1",
+      "sku": "lake-L",
+      "happened_at": "2026-07-12"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f92",
+      "person": "p2",
+      "measured_at": "2026-07-13",
+      "height": 167,
+      "foot": 23.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o92",
+      "person": "p2",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-13"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a92",
+      "order": "o92",
+      "outcome": "return",
+      "reason": "changed_mind",
+      "observed_at": "2026-07-18"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f93",
+      "person": "p3",
+      "measured_at": "2026-07-14",
+      "height": 168,
+      "foot": 23.5,
+      "brand": "lake",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o93",
+      "person": "p3",
+      "sku": "lake-M",
+      "happened_at": "2026-07-14"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a93",
+      "order": "o93",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-21"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f94",
+      "person": "p4",
+      "measured_at": "2026-07-15",
+      "height": 169,
+      "foot": 24.0,
+      "brand": "ridge",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o94",
+      "person": "p4",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-15"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f95",
+      "person": "p5",
+      "measured_at": "2026-07-16",
+      "height": 170,
+      "foot": 24.5,
+      "brand": "lake",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o95",
+      "person": "p5",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-16"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x95",
+      "person": "p5",
+      "sku": "lake-M",
+      "happened_at": "2026-07-19"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a95",
+      "order": "o95",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-19",
+      "replacement": "x95"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f96",
+      "person": "p6",
+      "measured_at": "2026-07-17",
+      "height": 171,
+      "foot": 25.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o96",
+      "person": "p6",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-17"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a96",
+      "order": "o96",
+      "outcome": "return",
+      "reason": "fabric",
+      "observed_at": "2026-07-22"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f97",
+      "person": "p7",
+      "measured_at": "2026-07-18",
+      "height": 172,
+      "foot": 25.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o97",
+      "person": "p7",
+      "sku": "lake-L",
+      "happened_at": "2026-07-18"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f98",
+      "person": "p8",
+      "measured_at": "2026-07-19",
+      "height": 173,
+      "foot": 26.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o98",
+      "person": "p8",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-19"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f99",
+      "person": "p9",
+      "measured_at": "2026-07-20",
+      "height": 174,
+      "foot": 22.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o99",
+      "person": "p9",
+      "sku": "lake-M",
+      "happened_at": "2026-07-20"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a99",
+      "order": "o99",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-27"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f100",
+      "person": "p10",
+      "measured_at": "2026-07-21",
+      "height": 175,
+      "foot": 22.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o100",
+      "person": "p10",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-21"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x100",
+      "person": "p10",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-24"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a100",
+      "order": "o100",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-24",
+      "replacement": "x100"
+    }
+  ],
+  [
+    "aftercare.correct",
+    {
+      "id": "a100",
+      "reason": "fabric",
+      "observed_at": "2026-07-30"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f101",
+      "person": "p11",
+      "measured_at": "2026-07-22",
+      "height": 176,
+      "foot": 23.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o101",
+      "person": "p11",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-22"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f102",
+      "person": "p12",
+      "measured_at": "2026-07-23",
+      "height": 177,
+      "foot": 23.5,
+      "brand": "ridge",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o102",
+      "person": "p12",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-23"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a102",
+      "order": "o102",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-30"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f103",
+      "person": "p13",
+      "measured_at": "2026-07-24",
+      "height": 178,
+      "foot": 24.0,
+      "brand": "lake",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o103",
+      "person": "p13",
+      "sku": "lake-L",
+      "happened_at": "2026-07-24"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f104",
+      "person": "p14",
+      "measured_at": "2026-07-25",
+      "height": 179,
+      "foot": 24.5,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o104",
+      "person": "p14",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-25"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a104",
+      "order": "o104",
+      "outcome": "return",
+      "reason": "fabric",
+      "observed_at": "2026-07-30"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f105",
+      "person": "p15",
+      "measured_at": "2026-07-26",
+      "height": 180,
+      "foot": 25.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o105",
+      "person": "p15",
+      "sku": "lake-M",
+      "happened_at": "2026-07-26"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x105",
+      "person": "p15",
+      "sku": "lake-L",
+      "happened_at": "2026-07-29"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a105",
+      "order": "o105",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-29",
+      "replacement": "x105"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f106",
+      "person": "p16",
+      "measured_at": "2026-07-27",
+      "height": 181,
+      "foot": 25.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o106",
+      "person": "p16",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-27"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f107",
+      "person": "p17",
+      "measured_at": "2026-07-28",
+      "height": 182,
+      "foot": 26.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o107",
+      "person": "p17",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-28"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f108",
+      "person": "p18",
+      "measured_at": "2026-07-29",
+      "height": 183,
+      "foot": 22.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o108",
+      "person": "p18",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-29"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a108",
+      "order": "o108",
+      "outcome": "return",
+      "reason": "fabric",
+      "observed_at": "2026-08-03"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f109",
+      "person": "p19",
+      "measured_at": "2026-07-30",
+      "height": 184,
+      "foot": 22.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o109",
+      "person": "p19",
+      "sku": "lake-L",
+      "happened_at": "2026-07-30"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f110",
+      "person": "p20",
+      "measured_at": "2026-07-31",
+      "height": 185,
+      "foot": 23.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o110",
+      "person": "p20",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-31"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x110",
+      "person": "p20",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-03"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a110",
+      "order": "o110",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-03",
+      "replacement": "x110"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f111",
+      "person": "p21",
+      "measured_at": "2026-08-01",
+      "height": 186,
+      "foot": 23.5,
+      "brand": "lake",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o111",
+      "person": "p21",
+      "sku": "lake-M",
+      "happened_at": "2026-08-01"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a111",
+      "order": "o111",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-08"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f112",
+      "person": "p22",
+      "measured_at": "2026-08-02",
+      "height": 187,
+      "foot": 24.0,
+      "brand": "ridge",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o112",
+      "person": "p22",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-02"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a112",
+      "order": "o112",
+      "outcome": "return",
+      "reason": "changed_mind",
+      "observed_at": "2026-08-07"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f113",
+      "person": "p23",
+      "measured_at": "2026-08-03",
+      "height": 188,
+      "foot": 24.5,
+      "brand": "lake",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o113",
+      "person": "p23",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-03"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f114",
+      "person": "p24",
+      "measured_at": "2026-08-04",
+      "height": 189,
+      "foot": 25.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o114",
+      "person": "p24",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-04"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a114",
+      "order": "o114",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-11"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f115",
+      "person": "p25",
+      "measured_at": "2026-08-05",
+      "height": 190,
+      "foot": 25.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o115",
+      "person": "p25",
+      "sku": "lake-L",
+      "happened_at": "2026-08-05"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x115",
+      "person": "p25",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-08"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a115",
+      "order": "o115",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-08",
+      "replacement": "x115"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f116",
+      "person": "p26",
+      "measured_at": "2026-08-06",
+      "height": 191,
+      "foot": 26.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o116",
+      "person": "p26",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-06"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a116",
+      "order": "o116",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-08-11"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f117",
+      "person": "p27",
+      "measured_at": "2026-08-07",
+      "height": 192,
+      "foot": 22.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o117",
+      "person": "p27",
+      "sku": "lake-M",
+      "happened_at": "2026-08-07"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a117",
+      "order": "o117",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-14"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f118",
+      "person": "p28",
+      "measured_at": "2026-08-08",
+      "height": 193,
+      "foot": 22.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o118",
+      "person": "p28",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-08"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f119",
+      "person": "p29",
+      "measured_at": "2026-08-09",
+      "height": 194,
+      "foot": 23.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o119",
+      "person": "p29",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-09"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f120",
+      "person": "p30",
+      "measured_at": "2026-08-10",
+      "height": 155,
+      "foot": 23.5,
+      "brand": "ridge",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o120",
+      "person": "p30",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-10"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x120",
+      "person": "p30",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-13"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a120",
+      "order": "o120",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-13",
+      "replacement": "x120"
+    }
+  ],
+  [
+    "aftercare.correct",
+    {
+      "id": "a120",
+      "reason": "fabric",
+      "observed_at": "2026-08-19"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f121",
+      "person": "p31",
+      "measured_at": "2026-08-11",
+      "height": 156,
+      "foot": 24.0,
+      "brand": "lake",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o121",
+      "person": "p31",
+      "sku": "lake-L",
+      "happened_at": "2026-08-11"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f122",
+      "person": "p32",
+      "measured_at": "2026-08-12",
+      "height": 157,
+      "foot": 24.5,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o122",
+      "person": "p32",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-12"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f123",
+      "person": "p33",
+      "measured_at": "2026-08-13",
+      "height": 158,
+      "foot": 25.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o123",
+      "person": "p33",
+      "sku": "lake-M",
+      "happened_at": "2026-08-13"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a123",
+      "order": "o123",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-20"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f124",
+      "person": "p34",
+      "measured_at": "2026-08-14",
+      "height": 159,
+      "foot": 25.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o124",
+      "person": "p34",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-14"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a124",
+      "order": "o124",
+      "outcome": "return",
+      "reason": "fabric",
+      "observed_at": "2026-08-19"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f125",
+      "person": "p35",
+      "measured_at": "2026-08-15",
+      "height": 160,
+      "foot": 26.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o125",
+      "person": "p35",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-15"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x125",
+      "person": "p35",
+      "sku": "lake-M",
+      "happened_at": "2026-08-18"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a125",
+      "order": "o125",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-18",
+      "replacement": "x125"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f126",
+      "person": "p36",
+      "measured_at": "2026-08-16",
+      "height": 161,
+      "foot": 22.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o126",
+      "person": "p36",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-16"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a126",
+      "order": "o126",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-23"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f127",
+      "person": "p37",
+      "measured_at": "2026-08-17",
+      "height": 162,
+      "foot": 22.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o127",
+      "person": "p37",
+      "sku": "lake-L",
+      "happened_at": "2026-08-17"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f128",
+      "person": "p38",
+      "measured_at": "2026-08-18",
+      "height": 163,
+      "foot": 23.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o128",
+      "person": "p38",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-18"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a128",
+      "order": "o128",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-08-23"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f129",
+      "person": "p39",
+      "measured_at": "2026-08-19",
+      "height": 164,
+      "foot": 23.5,
+      "brand": "lake",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o129",
+      "person": "p39",
+      "sku": "lake-M",
+      "happened_at": "2026-08-19"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a129",
+      "order": "o129",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-26"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f130",
+      "person": "p40",
+      "measured_at": "2026-08-20",
+      "height": 165,
+      "foot": 24.0,
+      "brand": "ridge",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o130",
+      "person": "p40",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-20"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x130",
+      "person": "p40",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-23"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a130",
+      "order": "o130",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-23",
+      "replacement": "x130"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f131",
+      "person": "p41",
+      "measured_at": "2026-08-21",
+      "height": 166,
+      "foot": 24.5,
+      "brand": "lake",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o131",
+      "person": "p41",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-21"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f132",
+      "person": "p42",
+      "measured_at": "2026-08-22",
+      "height": 167,
+      "foot": 25.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o132",
+      "person": "p42",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-22"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a132",
+      "order": "o132",
+      "outcome": "return",
+      "reason": "changed_mind",
+      "observed_at": "2026-08-27"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f133",
+      "person": "p43",
+      "measured_at": "2026-08-23",
+      "height": 168,
+      "foot": 25.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o133",
+      "person": "p43",
+      "sku": "lake-L",
+      "happened_at": "2026-08-23"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f134",
+      "person": "p44",
+      "measured_at": "2026-08-24",
+      "height": 169,
+      "foot": 26.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o134",
+      "person": "p44",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-24"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f135",
+      "person": "p45",
+      "measured_at": "2026-08-25",
+      "height": 170,
+      "foot": 22.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o135",
+      "person": "p45",
+      "sku": "lake-M",
+      "happened_at": "2026-08-25"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x135",
+      "person": "p45",
+      "sku": "lake-L",
+      "happened_at": "2026-08-28"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a135",
+      "order": "o135",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-28",
+      "replacement": "x135"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f136",
+      "person": "p46",
+      "measured_at": "2026-08-26",
+      "height": 171,
+      "foot": 22.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o136",
+      "person": "p46",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-26"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a136",
+      "order": "o136",
+      "outcome": "return",
+      "reason": "fabric",
+      "observed_at": "2026-08-31"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f137",
+      "person": "p47",
+      "measured_at": "2026-08-27",
+      "height": 172,
+      "foot": 23.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o137",
+      "person": "p47",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-27"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f138",
+      "person": "p48",
+      "measured_at": "2026-08-28",
+      "height": 173,
+      "foot": 23.5,
+      "brand": "ridge",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o138",
+      "person": "p48",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-28"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a138",
+      "order": "o138",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-09-04"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f139",
+      "person": "p49",
+      "measured_at": "2026-08-29",
+      "height": 174,
+      "foot": 24.0,
+      "brand": "lake",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o139",
+      "person": "p49",
+      "sku": "lake-L",
+      "happened_at": "2026-08-29"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f140",
+      "person": "p50",
+      "measured_at": "2026-08-30",
+      "height": 175,
+      "foot": 24.5,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o140",
+      "person": "p50",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-30"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x140",
+      "person": "p50",
+      "sku": "ridge-M",
+      "happened_at": "2026-09-02"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a140",
+      "order": "o140",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-09-02",
+      "replacement": "x140"
+    }
+  ],
+  [
+    "aftercare.correct",
+    {
+      "id": "a140",
+      "reason": "fabric",
+      "observed_at": "2026-09-08"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f141",
+      "person": "p51",
+      "measured_at": "2026-08-31",
+      "height": 176,
+      "foot": 25.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o141",
+      "person": "p51",
+      "sku": "lake-M",
+      "happened_at": "2026-08-31"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a141",
+      "order": "o141",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-09-07"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f142",
+      "person": "p52",
+      "measured_at": "2026-09-01",
+      "height": 177,
+      "foot": 25.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o142",
+      "person": "p52",
+      "sku": "ridge-L",
+      "happened_at": "2026-09-01"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f143",
+      "person": "p53",
+      "measured_at": "2026-09-02",
+      "height": 178,
+      "foot": 26.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o143",
+      "person": "p53",
+      "sku": "lake-XL",
+      "happened_at": "2026-09-02"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f144",
+      "person": "p54",
+      "measured_at": "2026-09-03",
+      "height": 179,
+      "foot": 22.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o144",
+      "person": "p54",
+      "sku": "ridge-M",
+      "happened_at": "2026-09-03"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a144",
+      "order": "o144",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-09-08"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f145",
+      "person": "p55",
+      "measured_at": "2026-09-04",
+      "height": 180,
+      "foot": 22.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o145",
+      "person": "p55",
+      "sku": "lake-L",
+      "happened_at": "2026-09-04"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x145",
+      "person": "p55",
+      "sku": "lake-XL",
+      "happened_at": "2026-09-07"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a145",
+      "order": "o145",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-09-07",
+      "replacement": "x145"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f146",
+      "person": "p56",
+      "measured_at": "2026-09-05",
+      "height": 181,
+      "foot": 23.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o146",
+      "person": "p56",
+      "sku": "ridge-XL",
+      "happened_at": "2026-09-05"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f147",
+      "person": "p57",
+      "measured_at": "2026-09-06",
+      "height": 182,
+      "foot": 23.5,
+      "brand": "lake",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o147",
+      "person": "p57",
+      "sku": "lake-M",
+      "happened_at": "2026-09-06"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a147",
+      "order": "o147",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-09-13"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f148",
+      "person": "p58",
+      "measured_at": "2026-09-07",
+      "height": 183,
+      "foot": 24.0,
+      "brand": "ridge",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o148",
+      "person": "p58",
+      "sku": "ridge-L",
+      "happened_at": "2026-09-07"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a148",
+      "order": "o148",
+      "outcome": "return",
+      "reason": "changed_mind",
+      "observed_at": "2026-09-12"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f149",
+      "person": "p59",
+      "measured_at": "2026-09-08",
+      "height": 184,
+      "foot": 24.5,
+      "brand": "lake",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o149",
+      "person": "p59",
+      "sku": "lake-XL",
+      "happened_at": "2026-09-08"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f150",
+      "person": "p60",
+      "measured_at": "2026-09-09",
+      "height": 185,
+      "foot": 25.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o150",
+      "person": "p60",
+      "sku": "ridge-M",
+      "happened_at": "2026-09-09"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x150",
+      "person": "p60",
+      "sku": "ridge-L",
+      "happened_at": "2026-09-12"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a150",
+      "order": "o150",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-09-12",
+      "replacement": "x150"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f151",
+      "person": "p61",
+      "measured_at": "2026-09-10",
+      "height": 186,
+      "foot": 25.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o151",
+      "person": "p61",
+      "sku": "lake-L",
+      "happened_at": "2026-09-10"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f152",
+      "person": "p62",
+      "measured_at": "2026-09-11",
+      "height": 187,
+      "foot": 26.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o152",
+      "person": "p62",
+      "sku": "ridge-XL",
+      "happened_at": "2026-09-11"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a152",
+      "order": "o152",
+      "outcome": "return",
+      "reason": "fabric",
+      "observed_at": "2026-09-16"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f153",
+      "person": "p63",
+      "measured_at": "2026-09-12",
+      "height": 188,
+      "foot": 22.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o153",
+      "person": "p63",
+      "sku": "lake-M",
+      "happened_at": "2026-09-12"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a153",
+      "order": "o153",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-09-19"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f154",
+      "person": "p64",
+      "measured_at": "2026-09-13",
+      "height": 189,
+      "foot": 22.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o154",
+      "person": "p64",
+      "sku": "ridge-L",
+      "happened_at": "2026-09-13"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f155",
+      "person": "p65",
+      "measured_at": "2026-09-14",
+      "height": 190,
+      "foot": 23.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o155",
+      "person": "p65",
+      "sku": "lake-XL",
+      "happened_at": "2026-09-14"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x155",
+      "person": "p65",
+      "sku": "lake-M",
+      "happened_at": "2026-09-17"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a155",
+      "order": "o155",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-09-17",
+      "replacement": "x155"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f156",
+      "person": "p66",
+      "measured_at": "2026-09-15",
+      "height": 191,
+      "foot": 23.5,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o156",
+      "person": "p66",
+      "sku": "ridge-M",
+      "happened_at": "2026-09-15"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a156",
+      "order": "o156",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-09-20"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f157",
+      "person": "p67",
+      "measured_at": "2026-09-16",
+      "height": 192,
+      "foot": 24.0,
+      "brand": "lake",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o157",
+      "person": "p67",
+      "sku": "lake-L",
+      "happened_at": "2026-09-16"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f158",
+      "person": "p68",
+      "measured_at": "2026-09-17",
+      "height": 193,
+      "foot": 24.5,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o158",
+      "person": "p68",
+      "sku": "ridge-XL",
+      "happened_at": "2026-09-17"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f159",
+      "person": "p69",
+      "measured_at": "2026-09-18",
+      "height": 194,
+      "foot": 25.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o159",
+      "person": "p69",
+      "sku": "lake-M",
+      "happened_at": "2026-09-18"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a159",
+      "order": "o159",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-09-25"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f160",
+      "person": "p70",
+      "measured_at": "2026-07-01",
+      "height": 155,
+      "foot": 25.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o160",
+      "person": "p70",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-01"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x160",
+      "person": "p70",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-04"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a160",
+      "order": "o160",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-04",
+      "replacement": "x160"
+    }
+  ],
+  [
+    "aftercare.correct",
+    {
+      "id": "a160",
+      "reason": "fabric",
+      "observed_at": "2026-07-10"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f161",
+      "person": "p71",
+      "measured_at": "2026-07-02",
+      "height": 156,
+      "foot": 26.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o161",
+      "person": "p71",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-02"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f162",
+      "person": "p72",
+      "measured_at": "2026-07-03",
+      "height": 157,
+      "foot": 22.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o162",
+      "person": "p72",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-03"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a162",
+      "order": "o162",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-10"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f163",
+      "person": "p73",
+      "measured_at": "2026-07-04",
+      "height": 158,
+      "foot": 22.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o163",
+      "person": "p73",
+      "sku": "lake-L",
+      "happened_at": "2026-07-04"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f164",
+      "person": "p74",
+      "measured_at": "2026-07-05",
+      "height": 159,
+      "foot": 23.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o164",
+      "person": "p74",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-05"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a164",
+      "order": "o164",
+      "outcome": "return",
+      "reason": "changed_mind",
+      "observed_at": "2026-07-10"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f165",
+      "person": "p75",
+      "measured_at": "2026-07-06",
+      "height": 160,
+      "foot": 23.5,
+      "brand": "lake",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o165",
+      "person": "p75",
+      "sku": "lake-M",
+      "happened_at": "2026-07-06"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x165",
+      "person": "p75",
+      "sku": "lake-L",
+      "happened_at": "2026-07-09"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a165",
+      "order": "o165",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-09",
+      "replacement": "x165"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f166",
+      "person": "p76",
+      "measured_at": "2026-07-07",
+      "height": 161,
+      "foot": 24.0,
+      "brand": "ridge",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o166",
+      "person": "p76",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-07"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f167",
+      "person": "p77",
+      "measured_at": "2026-07-08",
+      "height": 162,
+      "foot": 24.5,
+      "brand": "lake",
+      "size": "XL",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o167",
+      "person": "p77",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-08"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f168",
+      "person": "p78",
+      "measured_at": "2026-07-09",
+      "height": 163,
+      "foot": 25.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o168",
+      "person": "p78",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-09"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a168",
+      "order": "o168",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-07-14"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f169",
+      "person": "p79",
+      "measured_at": "2026-07-10",
+      "height": 164,
+      "foot": 25.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o169",
+      "person": "p79",
+      "sku": "lake-L",
+      "happened_at": "2026-07-10"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f170",
+      "person": "p80",
+      "measured_at": "2026-07-11",
+      "height": 165,
+      "foot": 26.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o170",
+      "person": "p80",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-11"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x170",
+      "person": "p80",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-14"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a170",
+      "order": "o170",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-14",
+      "replacement": "x170"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f171",
+      "person": "p81",
+      "measured_at": "2026-07-12",
+      "height": 166,
+      "foot": 22.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o171",
+      "person": "p81",
+      "sku": "lake-M",
+      "happened_at": "2026-07-12"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a171",
+      "order": "o171",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-19"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f172",
+      "person": "p82",
+      "measured_at": "2026-07-13",
+      "height": 167,
+      "foot": 22.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o172",
+      "person": "p82",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-13"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a172",
+      "order": "o172",
+      "outcome": "return",
+      "reason": "changed_mind",
+      "observed_at": "2026-07-18"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f173",
+      "person": "p83",
+      "measured_at": "2026-07-14",
+      "height": 168,
+      "foot": 23.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o173",
+      "person": "p83",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-14"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f174",
+      "person": "p84",
+      "measured_at": "2026-07-15",
+      "height": 169,
+      "foot": 23.5,
+      "brand": "ridge",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o174",
+      "person": "p84",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-15"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a174",
+      "order": "o174",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-22"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f175",
+      "person": "p85",
+      "measured_at": "2026-07-16",
+      "height": 170,
+      "foot": 24.0,
+      "brand": "lake",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o175",
+      "person": "p85",
+      "sku": "lake-L",
+      "happened_at": "2026-07-16"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x175",
+      "person": "p85",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-19"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a175",
+      "order": "o175",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-19",
+      "replacement": "x175"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f176",
+      "person": "p86",
+      "measured_at": "2026-07-17",
+      "height": 171,
+      "foot": 24.5,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o176",
+      "person": "p86",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-17"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a176",
+      "order": "o176",
+      "outcome": "return",
+      "reason": "changed_mind",
+      "observed_at": "2026-07-22"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f177",
+      "person": "p87",
+      "measured_at": "2026-07-18",
+      "height": 172,
+      "foot": 25.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o177",
+      "person": "p87",
+      "sku": "lake-M",
+      "happened_at": "2026-07-18"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a177",
+      "order": "o177",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-25"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f178",
+      "person": "p88",
+      "measured_at": "2026-07-19",
+      "height": 173,
+      "foot": 25.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o178",
+      "person": "p88",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-19"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f179",
+      "person": "p89",
+      "measured_at": "2026-07-20",
+      "height": 174,
+      "foot": 26.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o179",
+      "person": "p89",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-20"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f180",
+      "person": "p0",
+      "measured_at": "2026-07-21",
+      "height": 175,
+      "foot": 22.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o180",
+      "person": "p0",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-21"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x180",
+      "person": "p0",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-24"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a180",
+      "order": "o180",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-24",
+      "replacement": "x180"
+    }
+  ],
+  [
+    "aftercare.correct",
+    {
+      "id": "a180",
+      "reason": "fabric",
+      "observed_at": "2026-07-30"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f181",
+      "person": "p1",
+      "measured_at": "2026-07-22",
+      "height": 176,
+      "foot": 22.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o181",
+      "person": "p1",
+      "sku": "lake-L",
+      "happened_at": "2026-07-22"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f182",
+      "person": "p2",
+      "measured_at": "2026-07-23",
+      "height": 177,
+      "foot": 23.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o182",
+      "person": "p2",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-23"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f183",
+      "person": "p3",
+      "measured_at": "2026-07-24",
+      "height": 178,
+      "foot": 23.5,
+      "brand": "lake",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o183",
+      "person": "p3",
+      "sku": "lake-M",
+      "happened_at": "2026-07-24"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a183",
+      "order": "o183",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-31"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f184",
+      "person": "p4",
+      "measured_at": "2026-07-25",
+      "height": 179,
+      "foot": 24.0,
+      "brand": "ridge",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o184",
+      "person": "p4",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-25"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a184",
+      "order": "o184",
+      "outcome": "return",
+      "reason": "fabric",
+      "observed_at": "2026-07-30"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f185",
+      "person": "p5",
+      "measured_at": "2026-07-26",
+      "height": 180,
+      "foot": 24.5,
+      "brand": "lake",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o185",
+      "person": "p5",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-26"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x185",
+      "person": "p5",
+      "sku": "lake-M",
+      "happened_at": "2026-07-29"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a185",
+      "order": "o185",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-29",
+      "replacement": "x185"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f186",
+      "person": "p6",
+      "measured_at": "2026-07-27",
+      "height": 181,
+      "foot": 25.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o186",
+      "person": "p6",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-27"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a186",
+      "order": "o186",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-03"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f187",
+      "person": "p7",
+      "measured_at": "2026-07-28",
+      "height": 182,
+      "foot": 25.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o187",
+      "person": "p7",
+      "sku": "lake-L",
+      "happened_at": "2026-07-28"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f188",
+      "person": "p8",
+      "measured_at": "2026-07-29",
+      "height": 183,
+      "foot": 26.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o188",
+      "person": "p8",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-29"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a188",
+      "order": "o188",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-08-03"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f189",
+      "person": "p9",
+      "measured_at": "2026-07-30",
+      "height": 184,
+      "foot": 22.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o189",
+      "person": "p9",
+      "sku": "lake-M",
+      "happened_at": "2026-07-30"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a189",
+      "order": "o189",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-06"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f190",
+      "person": "p10",
+      "measured_at": "2026-07-31",
+      "height": 185,
+      "foot": 22.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o190",
+      "person": "p10",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-31"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x190",
+      "person": "p10",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-03"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a190",
+      "order": "o190",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-03",
+      "replacement": "x190"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f191",
+      "person": "p11",
+      "measured_at": "2026-08-01",
+      "height": 186,
+      "foot": 23.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o191",
+      "person": "p11",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-01"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f192",
+      "person": "p12",
+      "measured_at": "2026-08-02",
+      "height": 187,
+      "foot": 23.5,
+      "brand": "ridge",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o192",
+      "person": "p12",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-02"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a192",
+      "order": "o192",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-08-07"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f193",
+      "person": "p13",
+      "measured_at": "2026-08-03",
+      "height": 188,
+      "foot": 24.0,
+      "brand": "lake",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o193",
+      "person": "p13",
+      "sku": "lake-L",
+      "happened_at": "2026-08-03"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f194",
+      "person": "p14",
+      "measured_at": "2026-08-04",
+      "height": 189,
+      "foot": 24.5,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o194",
+      "person": "p14",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-04"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f195",
+      "person": "p15",
+      "measured_at": "2026-08-05",
+      "height": 190,
+      "foot": 25.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o195",
+      "person": "p15",
+      "sku": "lake-M",
+      "happened_at": "2026-08-05"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x195",
+      "person": "p15",
+      "sku": "lake-L",
+      "happened_at": "2026-08-08"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a195",
+      "order": "o195",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-08",
+      "replacement": "x195"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f196",
+      "person": "p16",
+      "measured_at": "2026-08-06",
+      "height": 191,
+      "foot": 25.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o196",
+      "person": "p16",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-06"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a196",
+      "order": "o196",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-08-11"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f197",
+      "person": "p17",
+      "measured_at": "2026-08-07",
+      "height": 192,
+      "foot": 26.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o197",
+      "person": "p17",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-07"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f198",
+      "person": "p18",
+      "measured_at": "2026-08-08",
+      "height": 193,
+      "foot": 22.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o198",
+      "person": "p18",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-08"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a198",
+      "order": "o198",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-15"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f199",
+      "person": "p19",
+      "measured_at": "2026-08-09",
+      "height": 194,
+      "foot": 22.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o199",
+      "person": "p19",
+      "sku": "lake-L",
+      "happened_at": "2026-08-09"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f200",
+      "person": "p20",
+      "measured_at": "2026-08-10",
+      "height": 155,
+      "foot": 23.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o200",
+      "person": "p20",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-10"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x200",
+      "person": "p20",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-13"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a200",
+      "order": "o200",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-13",
+      "replacement": "x200"
+    }
+  ],
+  [
+    "aftercare.correct",
+    {
+      "id": "a200",
+      "reason": "fabric",
+      "observed_at": "2026-08-19"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f201",
+      "person": "p21",
+      "measured_at": "2026-08-11",
+      "height": 156,
+      "foot": 23.5,
+      "brand": "lake",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o201",
+      "person": "p21",
+      "sku": "lake-M",
+      "happened_at": "2026-08-11"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a201",
+      "order": "o201",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-18"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f202",
+      "person": "p22",
+      "measured_at": "2026-08-12",
+      "height": 157,
+      "foot": 24.0,
+      "brand": "ridge",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o202",
+      "person": "p22",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-12"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f203",
+      "person": "p23",
+      "measured_at": "2026-08-13",
+      "height": 158,
+      "foot": 24.5,
+      "brand": "lake",
+      "size": "XL",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o203",
+      "person": "p23",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-13"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f204",
+      "person": "p24",
+      "measured_at": "2026-08-14",
+      "height": 159,
+      "foot": 25.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o204",
+      "person": "p24",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-14"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a204",
+      "order": "o204",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-08-19"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f205",
+      "person": "p25",
+      "measured_at": "2026-08-15",
+      "height": 160,
+      "foot": 25.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o205",
+      "person": "p25",
+      "sku": "lake-L",
+      "happened_at": "2026-08-15"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x205",
+      "person": "p25",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-18"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a205",
+      "order": "o205",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-18",
+      "replacement": "x205"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f206",
+      "person": "p26",
+      "measured_at": "2026-08-16",
+      "height": 161,
+      "foot": 26.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o206",
+      "person": "p26",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-16"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f207",
+      "person": "p27",
+      "measured_at": "2026-08-17",
+      "height": 162,
+      "foot": 22.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o207",
+      "person": "p27",
+      "sku": "lake-M",
+      "happened_at": "2026-08-17"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a207",
+      "order": "o207",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-24"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f208",
+      "person": "p28",
+      "measured_at": "2026-08-18",
+      "height": 163,
+      "foot": 22.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o208",
+      "person": "p28",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-18"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a208",
+      "order": "o208",
+      "outcome": "return",
+      "reason": "changed_mind",
+      "observed_at": "2026-08-23"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f209",
+      "person": "p29",
+      "measured_at": "2026-08-19",
+      "height": 164,
+      "foot": 23.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o209",
+      "person": "p29",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-19"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f210",
+      "person": "p30",
+      "measured_at": "2026-08-20",
+      "height": 165,
+      "foot": 23.5,
+      "brand": "ridge",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o210",
+      "person": "p30",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-20"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x210",
+      "person": "p30",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-23"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a210",
+      "order": "o210",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-23",
+      "replacement": "x210"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f211",
+      "person": "p31",
+      "measured_at": "2026-08-21",
+      "height": 166,
+      "foot": 24.0,
+      "brand": "lake",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o211",
+      "person": "p31",
+      "sku": "lake-L",
+      "happened_at": "2026-08-21"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f212",
+      "person": "p32",
+      "measured_at": "2026-08-22",
+      "height": 167,
+      "foot": 24.5,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o212",
+      "person": "p32",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-22"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a212",
+      "order": "o212",
+      "outcome": "return",
+      "reason": "changed_mind",
+      "observed_at": "2026-08-27"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f213",
+      "person": "p33",
+      "measured_at": "2026-08-23",
+      "height": 168,
+      "foot": 25.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o213",
+      "person": "p33",
+      "sku": "lake-M",
+      "happened_at": "2026-08-23"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a213",
+      "order": "o213",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-08-30"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f214",
+      "person": "p34",
+      "measured_at": "2026-08-24",
+      "height": 169,
+      "foot": 25.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o214",
+      "person": "p34",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-24"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f215",
+      "person": "p35",
+      "measured_at": "2026-08-25",
+      "height": 170,
+      "foot": 26.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o215",
+      "person": "p35",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-25"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x215",
+      "person": "p35",
+      "sku": "lake-M",
+      "happened_at": "2026-08-28"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a215",
+      "order": "o215",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-08-28",
+      "replacement": "x215"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f216",
+      "person": "p36",
+      "measured_at": "2026-08-26",
+      "height": 171,
+      "foot": 22.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o216",
+      "person": "p36",
+      "sku": "ridge-M",
+      "happened_at": "2026-08-26"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a216",
+      "order": "o216",
+      "outcome": "return",
+      "reason": "changed_mind",
+      "observed_at": "2026-08-31"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f217",
+      "person": "p37",
+      "measured_at": "2026-08-27",
+      "height": 172,
+      "foot": 22.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o217",
+      "person": "p37",
+      "sku": "lake-L",
+      "happened_at": "2026-08-27"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f218",
+      "person": "p38",
+      "measured_at": "2026-08-28",
+      "height": 173,
+      "foot": 23.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o218",
+      "person": "p38",
+      "sku": "ridge-XL",
+      "happened_at": "2026-08-28"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f219",
+      "person": "p39",
+      "measured_at": "2026-08-29",
+      "height": 174,
+      "foot": 23.5,
+      "brand": "lake",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o219",
+      "person": "p39",
+      "sku": "lake-M",
+      "happened_at": "2026-08-29"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a219",
+      "order": "o219",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-09-05"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f220",
+      "person": "p40",
+      "measured_at": "2026-08-30",
+      "height": 175,
+      "foot": 24.0,
+      "brand": "ridge",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o220",
+      "person": "p40",
+      "sku": "ridge-L",
+      "happened_at": "2026-08-30"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x220",
+      "person": "p40",
+      "sku": "ridge-XL",
+      "happened_at": "2026-09-02"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a220",
+      "order": "o220",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-09-02",
+      "replacement": "x220"
+    }
+  ],
+  [
+    "aftercare.correct",
+    {
+      "id": "a220",
+      "reason": "fabric",
+      "observed_at": "2026-09-08"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f221",
+      "person": "p41",
+      "measured_at": "2026-08-31",
+      "height": 176,
+      "foot": 24.5,
+      "brand": "lake",
+      "size": "XL",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o221",
+      "person": "p41",
+      "sku": "lake-XL",
+      "happened_at": "2026-08-31"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f222",
+      "person": "p42",
+      "measured_at": "2026-09-01",
+      "height": 177,
+      "foot": 25.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o222",
+      "person": "p42",
+      "sku": "ridge-M",
+      "happened_at": "2026-09-01"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a222",
+      "order": "o222",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-09-08"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f223",
+      "person": "p43",
+      "measured_at": "2026-09-02",
+      "height": 178,
+      "foot": 25.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o223",
+      "person": "p43",
+      "sku": "lake-L",
+      "happened_at": "2026-09-02"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f224",
+      "person": "p44",
+      "measured_at": "2026-09-03",
+      "height": 179,
+      "foot": 26.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o224",
+      "person": "p44",
+      "sku": "ridge-XL",
+      "happened_at": "2026-09-03"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a224",
+      "order": "o224",
+      "outcome": "return",
+      "reason": "fabric",
+      "observed_at": "2026-09-08"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f225",
+      "person": "p45",
+      "measured_at": "2026-09-04",
+      "height": 180,
+      "foot": 22.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o225",
+      "person": "p45",
+      "sku": "lake-M",
+      "happened_at": "2026-09-04"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x225",
+      "person": "p45",
+      "sku": "lake-L",
+      "happened_at": "2026-09-07"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a225",
+      "order": "o225",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-09-07",
+      "replacement": "x225"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f226",
+      "person": "p46",
+      "measured_at": "2026-09-05",
+      "height": 181,
+      "foot": 22.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o226",
+      "person": "p46",
+      "sku": "ridge-L",
+      "happened_at": "2026-09-05"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f227",
+      "person": "p47",
+      "measured_at": "2026-09-06",
+      "height": 182,
+      "foot": 23.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o227",
+      "person": "p47",
+      "sku": "lake-XL",
+      "happened_at": "2026-09-06"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f228",
+      "person": "p48",
+      "measured_at": "2026-09-07",
+      "height": 183,
+      "foot": 23.5,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o228",
+      "person": "p48",
+      "sku": "ridge-M",
+      "happened_at": "2026-09-07"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a228",
+      "order": "o228",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-09-12"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f229",
+      "person": "p49",
+      "measured_at": "2026-09-08",
+      "height": 184,
+      "foot": 24.0,
+      "brand": "lake",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o229",
+      "person": "p49",
+      "sku": "lake-L",
+      "happened_at": "2026-09-08"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f230",
+      "person": "p50",
+      "measured_at": "2026-09-09",
+      "height": 185,
+      "foot": 24.5,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o230",
+      "person": "p50",
+      "sku": "ridge-XL",
+      "happened_at": "2026-09-09"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x230",
+      "person": "p50",
+      "sku": "ridge-M",
+      "happened_at": "2026-09-12"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a230",
+      "order": "o230",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-09-12",
+      "replacement": "x230"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f231",
+      "person": "p51",
+      "measured_at": "2026-09-10",
+      "height": 186,
+      "foot": 25.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o231",
+      "person": "p51",
+      "sku": "lake-M",
+      "happened_at": "2026-09-10"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a231",
+      "order": "o231",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-09-17"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f232",
+      "person": "p52",
+      "measured_at": "2026-09-11",
+      "height": 187,
+      "foot": 25.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o232",
+      "person": "p52",
+      "sku": "ridge-L",
+      "happened_at": "2026-09-11"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a232",
+      "order": "o232",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-09-16"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f233",
+      "person": "p53",
+      "measured_at": "2026-09-12",
+      "height": 188,
+      "foot": 26.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o233",
+      "person": "p53",
+      "sku": "lake-XL",
+      "happened_at": "2026-09-12"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f234",
+      "person": "p54",
+      "measured_at": "2026-09-13",
+      "height": 189,
+      "foot": 22.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o234",
+      "person": "p54",
+      "sku": "ridge-M",
+      "happened_at": "2026-09-13"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a234",
+      "order": "o234",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-09-20"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f235",
+      "person": "p55",
+      "measured_at": "2026-09-14",
+      "height": 190,
+      "foot": 22.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o235",
+      "person": "p55",
+      "sku": "lake-L",
+      "happened_at": "2026-09-14"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x235",
+      "person": "p55",
+      "sku": "lake-XL",
+      "happened_at": "2026-09-17"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a235",
+      "order": "o235",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-09-17",
+      "replacement": "x235"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f236",
+      "person": "p56",
+      "measured_at": "2026-09-15",
+      "height": 191,
+      "foot": 23.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o236",
+      "person": "p56",
+      "sku": "ridge-XL",
+      "happened_at": "2026-09-15"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a236",
+      "order": "o236",
+      "outcome": "return",
+      "reason": "changed_mind",
+      "observed_at": "2026-09-20"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f237",
+      "person": "p57",
+      "measured_at": "2026-09-16",
+      "height": 192,
+      "foot": 23.5,
+      "brand": "lake",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o237",
+      "person": "p57",
+      "sku": "lake-M",
+      "happened_at": "2026-09-16"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a237",
+      "order": "o237",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-09-23"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f238",
+      "person": "p58",
+      "measured_at": "2026-09-17",
+      "height": 193,
+      "foot": 24.0,
+      "brand": "ridge",
+      "size": "L",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o238",
+      "person": "p58",
+      "sku": "ridge-L",
+      "happened_at": "2026-09-17"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f239",
+      "person": "p59",
+      "measured_at": "2026-09-18",
+      "height": 194,
+      "foot": 24.5,
+      "brand": "lake",
+      "size": "XL",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o239",
+      "person": "p59",
+      "sku": "lake-XL",
+      "happened_at": "2026-09-18"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f240",
+      "person": "p60",
+      "measured_at": "2026-07-01",
+      "height": 155,
+      "foot": 25.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o240",
+      "person": "p60",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-01"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x240",
+      "person": "p60",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-04"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a240",
+      "order": "o240",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-04",
+      "replacement": "x240"
+    }
+  ],
+  [
+    "aftercare.correct",
+    {
+      "id": "a240",
+      "reason": "fabric",
+      "observed_at": "2026-07-10"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f241",
+      "person": "p61",
+      "measured_at": "2026-07-02",
+      "height": 156,
+      "foot": 25.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o241",
+      "person": "p61",
+      "sku": "lake-L",
+      "happened_at": "2026-07-02"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f242",
+      "person": "p62",
+      "measured_at": "2026-07-03",
+      "height": 157,
+      "foot": 26.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o242",
+      "person": "p62",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-03"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f243",
+      "person": "p63",
+      "measured_at": "2026-07-04",
+      "height": 158,
+      "foot": 22.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o243",
+      "person": "p63",
+      "sku": "lake-M",
+      "happened_at": "2026-07-04"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a243",
+      "order": "o243",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-11"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f244",
+      "person": "p64",
+      "measured_at": "2026-07-05",
+      "height": 159,
+      "foot": 22.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o244",
+      "person": "p64",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-05"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a244",
+      "order": "o244",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-07-10"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f245",
+      "person": "p65",
+      "measured_at": "2026-07-06",
+      "height": 160,
+      "foot": 23.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o245",
+      "person": "p65",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-06"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x245",
+      "person": "p65",
+      "sku": "lake-M",
+      "happened_at": "2026-07-09"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a245",
+      "order": "o245",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-09",
+      "replacement": "x245"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f246",
+      "person": "p66",
+      "measured_at": "2026-07-07",
+      "height": 161,
+      "foot": 23.5,
+      "brand": "ridge",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o246",
+      "person": "p66",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-07"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a246",
+      "order": "o246",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-14"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f247",
+      "person": "p67",
+      "measured_at": "2026-07-08",
+      "height": 162,
+      "foot": 24.0,
+      "brand": "lake",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o247",
+      "person": "p67",
+      "sku": "lake-L",
+      "happened_at": "2026-07-08"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f248",
+      "person": "p68",
+      "measured_at": "2026-07-09",
+      "height": 163,
+      "foot": 24.5,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o248",
+      "person": "p68",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-09"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a248",
+      "order": "o248",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-07-14"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f249",
+      "person": "p69",
+      "measured_at": "2026-07-10",
+      "height": 164,
+      "foot": 25.0,
+      "brand": "lake",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o249",
+      "person": "p69",
+      "sku": "lake-M",
+      "happened_at": "2026-07-10"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a249",
+      "order": "o249",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-17"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f250",
+      "person": "p70",
+      "measured_at": "2026-07-11",
+      "height": 165,
+      "foot": 25.5,
+      "brand": "ridge",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o250",
+      "person": "p70",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-11"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x250",
+      "person": "p70",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-14"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a250",
+      "order": "o250",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-14",
+      "replacement": "x250"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f251",
+      "person": "p71",
+      "measured_at": "2026-07-12",
+      "height": 166,
+      "foot": 26.0,
+      "brand": "lake",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o251",
+      "person": "p71",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-12"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f252",
+      "person": "p72",
+      "measured_at": "2026-07-13",
+      "height": 167,
+      "foot": 22.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o252",
+      "person": "p72",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-13"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a252",
+      "order": "o252",
+      "outcome": "return",
+      "reason": "size_large",
+      "observed_at": "2026-07-18"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f253",
+      "person": "p73",
+      "measured_at": "2026-07-14",
+      "height": 168,
+      "foot": 22.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o253",
+      "person": "p73",
+      "sku": "lake-L",
+      "happened_at": "2026-07-14"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f254",
+      "person": "p74",
+      "measured_at": "2026-07-15",
+      "height": 169,
+      "foot": 23.0,
+      "brand": "ridge",
+      "size": "XL",
+      "result": "small"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o254",
+      "person": "p74",
+      "sku": "ridge-XL",
+      "happened_at": "2026-07-15"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f255",
+      "person": "p75",
+      "measured_at": "2026-07-16",
+      "height": 170,
+      "foot": 23.5,
+      "brand": "lake",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o255",
+      "person": "p75",
+      "sku": "lake-M",
+      "happened_at": "2026-07-16"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "x255",
+      "person": "p75",
+      "sku": "lake-L",
+      "happened_at": "2026-07-19"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a255",
+      "order": "o255",
+      "outcome": "exchange",
+      "reason": "size_small",
+      "observed_at": "2026-07-19",
+      "replacement": "x255"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f256",
+      "person": "p76",
+      "measured_at": "2026-07-17",
+      "height": 171,
+      "foot": 24.0,
+      "brand": "ridge",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o256",
+      "person": "p76",
+      "sku": "ridge-L",
+      "happened_at": "2026-07-17"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a256",
+      "order": "o256",
+      "outcome": "return",
+      "reason": "fabric",
+      "observed_at": "2026-07-22"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f257",
+      "person": "p77",
+      "measured_at": "2026-07-18",
+      "height": 172,
+      "foot": 24.5,
+      "brand": "lake",
+      "size": "XL",
+      "result": "unknown"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o257",
+      "person": "p77",
+      "sku": "lake-XL",
+      "happened_at": "2026-07-18"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f258",
+      "person": "p78",
+      "measured_at": "2026-07-19",
+      "height": 173,
+      "foot": 25.0,
+      "brand": "ridge",
+      "size": "M",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o258",
+      "person": "p78",
+      "sku": "ridge-M",
+      "happened_at": "2026-07-19"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a258",
+      "order": "o258",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-07-26"
+    }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f259",
+      "person": "p79",
+      "measured_at": "2026-07-20",
+      "height": 174,
+      "foot": 25.5,
+      "brand": "lake",
+      "size": "L",
+      "result": "large"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o259",
+      "person": "p79",
+      "sku": "lake-L",
+      "happened_at": "2026-07-20"
+    }
+  ]
+]
