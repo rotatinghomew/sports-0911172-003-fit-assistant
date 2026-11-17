@@ -13,7 +13,7 @@ class BusinessBehaviorTests(unittest.TestCase):
         self.app.store.close()
     def test_exchange_restores_original_stock(self):
         self.assertEqual(self.app.store.get('sku','m')['count'],3)
-        self.assertEqual(self.app.store.get('sku','l')['count'],1)
+        self.assertEqual(self.app.store.get('sku','l')['count'],0)
 
     def test_correction_does_not_rewrite_original_reason(self):
         history=self.app.store.history('aftercare','a1')

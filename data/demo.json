@@ -70,5 +70,56 @@
       "reason": "fabric",
       "observed_at": "2026-10-10"
     }
+  ],
+  [
+    "fittings.measure",
+    {
+      "id": "f2",
+      "person": "p2",
+      "measured_at": "2026-09-28",
+      "height": 181,
+      "foot": 27,
+      "brand": "ridge",
+      "size": "L",
+      "result": "fit"
+    }
+  ],
+  [
+    "advisor.recommend",
+    {
+      "id": "r1",
+      "person": "p2",
+      "style": "trail",
+      "asked_at": "2026-10-03"
+    }
+  ],
+  [
+    "orders.place",
+    {
+      "id": "o3",
+      "person": "p2",
+      "sku": "l",
+      "happened_at": "2026-10-03",
+      "advice": "r1"
+    }
+  ],
+  [
+    "advisor.recommend",
+    {
+      "id": "r2",
+      "person": "p1",
+      "style": "trail",
+      "asked_at": "2026-10-11"
+    }
+  ],
+  [
+    "aftercare.record",
+    {
+      "id": "a2",
+      "order": "o3",
+      "outcome": "followup",
+      "reason": "fit",
+      "observed_at": "2026-10-12"
+    }
   ]
 ]

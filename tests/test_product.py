@@ -18,7 +18,7 @@ class ProductTests(unittest.TestCase):
     def test_workflow(self):
         self.app.replay(self.operations)
         state=self.app.store.snapshot()
-        for kind,count in {'sku': 2, 'order': 2, 'aftercare': 1}.items():
+        for kind,count in {'sku': 2, 'order': 3, 'aftercare': 2, 'fitting': 2, 'advice': 2}.items():
             self.assertEqual(len(state[kind]),count,kind)
         self.assertEqual(state['aftercare'][0]['reason'],'fabric')
 

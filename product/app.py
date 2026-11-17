@@ -7,12 +7,13 @@ from .fittings import Fittings
 from .catalog import Catalog
 from .orders import Orders
 from .aftercare import Aftercare
+from .advisor import Advisor
 
 
 class Application:
     def __init__(self, path=':memory:'):
         self.store=Store(path)
-        self.services={'fittings':Fittings(self.store),'catalog':Catalog(self.store),'orders':Orders(self.store),'aftercare':Aftercare(self.store)}
+        self.services={'fittings':Fittings(self.store),'catalog':Catalog(self.store),'orders':Orders(self.store),'aftercare':Aftercare(self.store),'advisor':Advisor(self.store)}
 
     def execute(self, command, arguments):
         service, separator, operation=command.partition('.')
